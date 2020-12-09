@@ -44,6 +44,7 @@
         }
         const watermakr = document.createElement('div');
         watermakr.className = 'watermark';
+        //  background-repeat默认是repeat
         watermakr.style.backgroundImage = `url(${createWaterMark()})`
         document.body.appendChild(watermakr);
     </script>
